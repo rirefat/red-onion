@@ -1,0 +1,27 @@
+.features{
+    padding: 3% 5%;
+
+    h2{
+        font-weight: 400;
+        font-size: 38px;
+    }
+
+    p{
+        padding-right: 50%;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.7em;
+    }
+}
+
+
+<div className='features'>
+            <h2>Why you choose us</h2>
+            <p>Barton waited twenty always repair in within we do. An delighted offending curiosity my is dashwoods at. Boy prosperous increasing surroundings.</p>
+
+            <div className="feature-card">
+                <div className="single-card">
+                    
+                </div>
+            </div>
+        </div>

@@ -1,0 +1,37 @@
+.features {
+  padding: 3% 5%;
+}
+.features h2 {
+  font-weight: 400;
+  font-size: 38px;
+}
+.features p {
+  padding-right: 50%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.7em;
+}
+.features .feature-card .single-card .description {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-top: 2%;
+}
+.features .feature-card .single-card .description .content {
+  padding: 0 1.5%;
+}
+.features .feature-card .single-card .description .content h3 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 24px;
+}
+.features .feature-card .single-card .description .content p {
+  font-size: 20px;
+  color: lightslategrey;
+}
+.features .feature-card .single-card .description .content a {
+  text-decoration: none;
+  color: #1755de;
+  font-size: 18px;
+  font-weight: 500;
+}/*# sourceMappingURL=Features.css.map */
