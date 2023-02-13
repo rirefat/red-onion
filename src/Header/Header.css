@@ -1,0 +1,33 @@
+.header {
+  padding: 1.5% 6%;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+.header .logo-area img {
+  width: 25%;
+}
+.header .nav-links {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.header .nav-links a {
+  text-decoration: none;
+  margin-left: 1.8em;
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+}
+.header .nav-links a:hover {
+  color: #F91944;
+}
+.header .nav-links a:last-child {
+  background-color: #F91944;
+  color: white;
+  padding: 2% 4%;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.header .nav-links a:last-child:hover {
+  background-color: #d2032b;
+}/*# sourceMappingURL=Header.css.map */
