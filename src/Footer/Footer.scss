@@ -1,6 +1,9 @@
+$primary-color: #F91944;
+$primary-deep: #d2032b;
+
 .footer{
     background-color: #1e272e;
-    padding: 5% 8%;
+    padding: 2.5% 8%;
 
     .section-one{
         display: grid;
@@ -27,8 +30,41 @@
                         color: white;
                         font-weight: 500;
                         line-height: 2.8em;
+
+                        &:hover{
+                            color: $primary-color;
+                        }
                     }
             } 
+            }
+        }
+    }
+
+    .section-two{
+        margin-top: 4%;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+
+        .copyright{
+            color: lightgrey;
+        }
+
+        .links{
+            ul{
+                display: flex;
+                justify-content: end;
+                li{
+                    list-style: none;
+                    padding: 0 2.5%;
+                    a{
+                        text-decoration: none;
+                        color: white;
+
+                        &:hover{
+                            color: $primary-color;
+                        }
+                    }
+                }
             }
         }
     }

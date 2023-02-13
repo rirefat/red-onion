@@ -3,6 +3,8 @@ import './Footer.css';
 import logo from '../assets/images/logo.png'
 
 const Footer = () => {
+    const d = new Date();
+    let year = d.getFullYear();
     return (
         <div className='footer'>
             <div className="section-one">
@@ -21,6 +23,19 @@ const Footer = () => {
                         <li><a href="#">Read FAQ's</a></li>
                         <li><a href="#">View All Cities</a></li>
                         <li><a href="#">Restaurants Near Me</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div className="section-two">
+                <div className="copyright">                    
+                    <p>Copyright © 2020-{year} Red Onion Foods</p>
+                </div>
+                <div className="links">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Product Pricing</a></li>
                     </ul>
                 </div>
             </div>
