@@ -1,0 +1,29 @@
+.footer {
+  background-color: #1e272e;
+  padding: 5% 8%;
+}
+.footer .section-one {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+.footer .section-one img {
+  width: 30%;
+  height: auto;
+  flex-shrink: 0;
+}
+.footer .section-one .essential-links {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .section-one .essential-links ul {
+  margin-right: 0;
+}
+.footer .section-one .essential-links ul li {
+  list-style: none;
+}
+.footer .section-one .essential-links ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  line-height: 2.8em;
+}/*# sourceMappingURL=Footer.css.map */
