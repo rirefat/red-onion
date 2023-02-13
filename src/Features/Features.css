@@ -11,14 +11,29 @@
   font-size: 20px;
   line-height: 1.7em;
 }
+.features .feature-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  margin-top: 3em;
+}
+.features .feature-card .single-card img {
+  width: 95%;
+  box-shadow: 3px 3px 8px rgb(176, 175, 175);
+  border-radius: 25px;
+}
 .features .feature-card .single-card .description {
   display: flex;
   justify-content: start;
   align-items: start;
-  margin-top: 2%;
+  margin-top: 8%;
+  padding: 0 6%;
+}
+.features .feature-card .single-card .description img {
+  width: 25%;
 }
 .features .feature-card .single-card .description .content {
-  padding: 0 1.5%;
+  padding: 0 2%;
 }
 .features .feature-card .single-card .description .content h3 {
   margin: 0;
@@ -28,10 +43,24 @@
 .features .feature-card .single-card .description .content p {
   font-size: 20px;
   color: lightslategrey;
+  padding-right: 0;
 }
-.features .feature-card .single-card .description .content a {
+.features .feature-card .single-card .description .content .link {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.8em;
+}
+.features .feature-card .single-card .description .content .link a {
   text-decoration: none;
   color: #1755de;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
+}
+.features .feature-card .single-card .description .content .link a:hover {
+  text-decoration: underline;
+}
+.features .feature-card .single-card .description .content .link span {
+  font-size: 22px;
+  color: #009432;
 }/*# sourceMappingURL=Features.css.map */

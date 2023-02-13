@@ -8,6 +8,8 @@ import icon1 from '../assets/images/icons/Group 204.png';
 import icon2 from '../assets/images/icons/Group 1133.png';
 import icon3 from '../assets/images/icons/Group 245.png';
 
+import { BsArrowRightCircle } from 'react-icons/bs';
+
 const Feature = () => {
     return (
         <div className='features'>
@@ -23,7 +25,37 @@ const Feature = () => {
                             <h3>Fast Delivery</h3>
                             <p>Keep your system in sync with automated web hook based notifications each time link is paid and how we deram about our future.</p>
 
-                            <a href="#">See more</a>
+                            <div className="link">
+                                <a href="#">See more</a> <span><BsArrowRightCircle/></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="single-card">
+                    <img src={img2} alt="" />
+                    <div className="description">
+                        <img src={icon2} alt="" />
+                        <div className="content">
+                            <h3>Fast Delivery</h3>
+                            <p>Keep your system in sync with automated web hook based notifications each time link is paid and how we deram about our future.</p>
+
+                            <div className="link">
+                                <a href="#">See more</a> <span><BsArrowRightCircle/></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="single-card">
+                    <img src={img3} alt="" />
+                    <div className="description">
+                        <img src={icon3} alt="" />
+                        <div className="content">
+                            <h3>Fast Delivery</h3>
+                            <p>Keep your system in sync with automated web hook based notifications each time link is paid and how we deram about our future.</p>
+
+                            <div className="link">
+                                <a href="#">See more</a> <span><BsArrowRightCircle/></span>
+                            </div>
                         </div>
                     </div>
                 </div>
