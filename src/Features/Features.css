@@ -31,6 +31,7 @@
 }
 .features .feature-card .single-card .description img {
   width: 25%;
+  box-shadow: none;
 }
 .features .feature-card .single-card .description .content {
   padding: 0 2%;
