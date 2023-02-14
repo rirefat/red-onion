@@ -29,6 +29,7 @@
   height: 3em;
   font-size: 18px;
   position: relative;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .hero-section .search-section #search_field:focus {
   outline: none;
@@ -42,7 +43,8 @@
   border-radius: 30px;
   padding: 0.65em 2em;
   position: relative;
-  left: -3%;
+  left: -4%;
+  top: 4%;
 }
 .hero-section .search-section #search_btn:hover {
   background-color: #d2032b;
