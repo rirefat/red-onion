@@ -1,7 +1,64 @@
 $primary-color: #F91944;
 $primary-deep: #d2032b;
 
-.signup-area{
+.signup-area {
     height: 90vh;
-    background: url('../images/bannerbackground.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .logo-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 6em;
+
+        img {
+            width: 45%;
+        }
+    }
+
+    .form-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        input{
+            width: 25rem;
+            margin-bottom: 0.9rem;
+            padding: 1rem 2.5rem;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #f0f0f0;
+
+            &:focus{
+                outline: none;
+            }
+        }
+
+        .btn{
+            background-color: $primary-color;
+            width: 30rem;
+            color: white;
+            letter-spacing: 0.3em;
+        }
+    }
+
+    span{
+        color: $primary-color;
+        letter-spacing: 0.1em;
+
+        a{
+            text-decoration: none;
+            color: $primary-deep;
+            font-weight: 500;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
 }
