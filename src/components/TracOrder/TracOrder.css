@@ -1,0 +1,75 @@
+.track-order {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  padding: 5% 15%;
+}
+.track-order .google-map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.track-order .google-map img {
+  width: 70%;
+}
+.track-order .riders-info {
+  background-color: #EFEEEC;
+  border-radius: 12px;
+  padding: 15% 8%;
+}
+.track-order .riders-info img {
+  width: 35%;
+  transform: translateX(8%);
+}
+.track-order .riders-info .location {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+.track-order .riders-info .location .your-location {
+  margin-bottom: 2rem;
+}
+.track-order .riders-info .location h3 {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+}
+.track-order .riders-info .location p {
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  color: rgb(68, 68, 68);
+}
+.track-order .riders-info .time {
+  margin: 0.8rem 0;
+}
+.track-order .riders-info .time h3 {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+}
+.track-order .riders-info .time p {
+  margin: 0;
+  color: rgb(68, 68, 68);
+}
+.track-order .riders-info .delivery-partner {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1rem 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.track-order .riders-info .delivery-partner img {
+  width: 30%;
+}
+.track-order .riders-info .delivery-partner h3 {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+}
+.track-order .riders-info .delivery-partner p {
+  margin: 0;
+  color: rgb(68, 68, 68);
+  font-size: 12px;
+}/*# sourceMappingURL=TracOrder.css.map */
