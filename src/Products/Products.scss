@@ -2,6 +2,7 @@ $primary-color: #F91944;
 $primary-deep: #d2032b;
 
 .products-section{
+    z-index: -9;
     .nav-menu{
         margin: 5em 0;
         ul{

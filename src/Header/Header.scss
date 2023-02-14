@@ -9,7 +9,8 @@ $primary-deep: #d2032b;
     top: 0;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    opacity: 0.9;
+    opacity: 0.98;
+    z-index: 9;
 
     .logo-area {
         display: flex;
