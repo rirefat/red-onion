@@ -1,22 +1,22 @@
 .signup-area {
-  height: 120vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background: url(../../assets/images/bg-banner-white.png);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
-  background-size: contain;
+  height: 90vh;
 }
 .signup-area .logo-area {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 6em;
+  margin-bottom: 3em;
 }
 .signup-area .logo-area img {
-  width: 45%;
+  width: 30%;
 }
 .signup-area .form-area {
   display: flex;
@@ -27,8 +27,8 @@
 .signup-area .form-area input {
   width: 25rem;
   margin-bottom: 0.9rem;
-  padding: 1rem 2.5rem;
-  font-size: 1.2rem;
+  padding: 0.8rem 2.5rem;
+  font-size: 1rem;
   border: none;
   border-radius: 5px;
   background-color: #f0f0f0;

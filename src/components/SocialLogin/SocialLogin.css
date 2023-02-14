@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2.5rem 0;
+  margin: 2rem 0;
 }
 .social-login .top-section hr {
   width: 10rem;
@@ -18,7 +18,7 @@
   align-items: center;
 }
 .social-login .socials button {
-  font-size: 3rem;
+  font-size: 2rem;
   background-color: transparent;
   border: none;
   padding: 0 2rem;
