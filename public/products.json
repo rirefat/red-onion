@@ -111,8 +111,8 @@
     
     {
         "id": "dinner_1",
-        "product_name": "Full Breakfast with Fried Egg Toast Brunch",
-        "price": "19.99",
+        "product_name": "Baked Chicken",
+        "price": "9.99",
         "description": "A Mexican dish consisting of a folded tortilla filled with various ingredients such as meat, beans, vegetables, and cheese, often served with salsa and other toppings.",
         "short_description":"Fresh food for good health",
         "img": "https://i.ibb.co/QJHBszQ/dinner1.png",
@@ -120,7 +120,7 @@
     },
     {
         "id": "dinner_2",
-        "product_name": "Full Breakfast with Fried Egg Toast Brunch",
+        "product_name": "Lemony Salmon Piccata",
         "price": "19.99",
         "description": "A Mexican dish consisting of a folded tortilla filled with various ingredients such as meat, beans, vegetables, and cheese, often served with salsa and other toppings.",
         "short_description":"Fresh food for good health",
@@ -130,8 +130,8 @@
     
     {
         "id": "dinner_3",
-        "product_name": "Full Breakfast with Fried Egg Toast Brunch",
-        "price": "19.99",
+        "product_name": "Garlic Butter Baked Salmon",
+        "price": "25.49",
         "description": "A Mexican dish consisting of a folded tortilla filled with various ingredients such as meat, beans, vegetables, and cheese, often served with salsa and other toppings.",
         "short_description":"Fresh food for good health",
         "img": "https://i.ibb.co/3770GBz/dinner3.png",
@@ -139,8 +139,8 @@
     },
     {
         "id": "dinner_4",
-        "product_name": "Full Breakfast with Fried Egg Toast Brunch",
-        "price": "19.99",
+        "product_name": "French Fries with Cheese",
+        "price": "7.99",
         "description": "A Mexican dish consisting of a folded tortilla filled with various ingredients such as meat, beans, vegetables, and cheese, often served with salsa and other toppings.",
         "short_description":"Fresh food for good health",
         "img": "https://i.ibb.co/K90rxt8/dinner4.png",
@@ -148,8 +148,8 @@
     },
     {
         "id": "dinner_5",
-        "product_name": "Full Breakfast with Fried Egg Toast Brunch",
-        "price": "19.99",
+        "product_name": "Pork Tenderloin with Quinoa pilaf",
+        "price": "14.99",
         "description": "A Mexican dish consisting of a folded tortilla filled with various ingredients such as meat, beans, vegetables, and cheese, often served with salsa and other toppings.",
         "short_description":"Fresh food for good health",
         "img": "https://i.ibb.co/nDkMXdX/dinner5.png",
@@ -157,8 +157,8 @@
     },
     {
         "id": "dinner_6",
-        "product_name": "Full Breakfast with Fried Egg Toast Brunch",
-        "price": "19.99",
+        "product_name": "Salmon With Grapefruit and Lentil Salad",
+        "price": "25.99",
         "description": "A Mexican dish consisting of a folded tortilla filled with various ingredients such as meat, beans, vegetables, and cheese, often served with salsa and other toppings.",
         "short_description":"Fresh food for good health",
         "img": "https://i.ibb.co/X7ZbZsz/dinner6.png",

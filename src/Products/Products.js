@@ -8,8 +8,8 @@ const Products = () => {
         fetch('products.json')
             .then(res=>res.json())
             .then(data=>setProducts(data))
-    },[])
-    console.log(products);
+    },[]);
+
     return (
         <div className='products-section'>
             <div className="nav-menu">

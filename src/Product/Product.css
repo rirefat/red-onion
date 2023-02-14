@@ -40,6 +40,7 @@
 .single-product .price {
   font-size: 1.8em;
   font-family: "Dosis", sans-serif;
+  letter-spacing: 0.1em;
 }
 .single-product .price span {
   font-size: 0.8em !important;
