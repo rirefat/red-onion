@@ -29,7 +29,7 @@ const Footer = () => {
 
             <div className="section-two">
                 <div className="copyright">                    
-                    <p>Copyright © 2020-{year} Red Onion Foods</p>
+                    <p>Copyright © 2020-{year} | Red Onion Foods</p>
                 </div>
                 <div className="links">
                     <ul>

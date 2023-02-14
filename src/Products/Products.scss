@@ -1,0 +1,33 @@
+$primary-color: #F91944;
+$primary-deep: #d2032b;
+
+.products-section{
+    .nav-menu{
+        margin: 5em 0;
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            li{
+                list-style: none;
+                margin: 1.8%;
+                font-weight: 500;
+                cursor: pointer;
+                text-transform: uppercase;
+
+                &:hover{
+                    color: $primary-color;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .products-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2em;
+        padding: 0 8%;
+    }
+}

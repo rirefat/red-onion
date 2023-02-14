@@ -4,6 +4,7 @@ import HeroSection from './HeroSection/HeroSection';
 import './App.css';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
+import Products from './Products/Products';
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     <div>
       <Header></Header>
       <HeroSection></HeroSection>
+      <Products></Products>
       <Feature></Feature>
       <Footer></Footer>
     </div>

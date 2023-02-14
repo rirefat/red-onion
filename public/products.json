@@ -1,0 +1,56 @@
+[
+    {
+        "id": "breakfast_1",
+        "product_name": "Bagel and cheese cream",
+        "price": "6.99",
+        "description": "A Mexican dish consisting of a folded tortilla filled with various ingredients such as meat, beans, vegetables, and cheese, often served with salsa and other toppings.",
+        "short_description":"Fresh food for good health",
+        "img":"https://i.ibb.co/09kXhNp/breakfast-id-1.png",
+        "category": "breakfast"
+    },
+    {
+        "id": "breakfast_2",
+        "product_name": "Breakfast Sandwich",
+        "price": "9.99",
+        "description": "A Mexican dish consisting of a folded tortilla filled with various ingredients such as meat, beans, vegetables, and cheese, often served with salsa and other toppings.",
+        "short_description":"Fresh food for good health",
+        "img": "https://i.ibb.co/C8D20dX/breakfast-id-2.png",
+        "category": "breakfast"
+    },
+    {
+        "id": "breakfast_3",
+        "product_name": "Baked Chicken",
+        "price": "12.99",
+        "description": "A Mexican dish consisting of a folded tortilla filled with various ingredients such as meat, beans, vegetables, and cheese, often served with salsa and other toppings.",
+        "short_description":"Fresh food for good health",
+        "img": "https://i.ibb.co/Hp6X0yf/breakfast-id-3.png",
+        "category": "breakfast"
+    },
+    {
+        "id": "breakfast_4",
+        "product_name": "Egg's Benedict",
+        "price": "5.99",
+        "description": "A Mexican dish consisting of a folded tortilla filled with various ingredients such as meat, beans, vegetables, and cheese, often served with salsa and other toppings.",
+        "short_description":"Fresh food for good health",
+        "img": "https://i.ibb.co/GpSYqtM/breakfast-id-4.png",
+        "category": "breakfast"
+    },
+    {
+        "id": "breakfast_5",
+        "product_name": "Toast Croissant Fried Egg",
+        "price": "15.99",
+        "description": "A Mexican dish consisting of a folded tortilla filled with various ingredients such as meat, beans, vegetables, and cheese, often served with salsa and other toppings.",
+        "short_description":"Fresh food for good health",
+        "img": "https://i.ibb.co/Hh1SQqj/breakfast-id-5.png",
+        "category": "breakfast"
+    },
+    {
+        "id": "breakfast_6",
+        "product_name": "Full Breakfast with Fried Egg Toast Brunch",
+        "price": "19.99",
+        "description": "A Mexican dish consisting of a folded tortilla filled with various ingredients such as meat, beans, vegetables, and cheese, often served with salsa and other toppings.",
+        "short_description":"Fresh food for good health",
+        "img": "https://i.ibb.co/GxT3nP3/breakfast-id-6.png",
+        "category": "breakfast"
+    }
+]

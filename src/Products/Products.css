@@ -1,0 +1,25 @@
+.products-section .nav-menu {
+  margin: 5em 0;
+}
+.products-section .nav-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.products-section .nav-menu ul li {
+  list-style: none;
+  margin: 1.8%;
+  font-weight: 500;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.products-section .nav-menu ul li:hover {
+  color: #F91944;
+  text-decoration: underline;
+}
+.products-section .products-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+  padding: 0 8%;
+}/*# sourceMappingURL=Products.css.map */

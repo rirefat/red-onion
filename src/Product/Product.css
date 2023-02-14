@@ -1,0 +1,15 @@
+.single-product {
+  text-align: center;
+  padding: 6%;
+  margin: 0 10%;
+}
+.single-product img {
+  width: 40%;
+}
+.single-product:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 14px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}/*# sourceMappingURL=Product.css.map */
