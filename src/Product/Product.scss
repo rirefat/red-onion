@@ -1,8 +1,12 @@
+$primary-color: #F91944;
+$primary-deep: #d2032b;
+
 .single-product {
     text-align: center;
     // font-family: 'Dosis', sans-serif;
     padding: 6%;
     margin: 0 10%;
+    position: relative;
 
     img {
         width: 40%;
@@ -13,5 +17,44 @@
         background-color: #fff;
         border-radius: 14px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    &:hover .add-to-cart {
+        visibility: visible;
+    }
+
+    .add-to-cart {
+        position: absolute;
+        font-size: 22px;
+        top: 10%;
+        right: 10%;
+        height: 22px;
+        width: 22px;
+        padding: 5px;
+        border-radius: 50%;
+        border: 1px solid transparent;
+        background: $primary-color;
+        color: white;
+        visibility: hidden;
+
+        &:hover {
+            background: $primary-deep;
+        }
+    }
+
+    .title {
+        font-weight: 500;
+        letter-spacing: 0.01em;
+    }
+
+    .price {
+        font-size: 1.8em;
+        font-family: 'Dosis', sans-serif;
+
+        span {
+            font-size: 0.8em !important;
+            color: gray;
+            padding: 0 1%;
+        }
     }
 }
