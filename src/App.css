@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap');
 
+
 .App {
   text-align: center;
   font-family: 'Dosis', sans-serif;
@@ -29,6 +30,13 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.scroll-top{
+  font-size: 32px;
+  border-radius: 50%;
+  color: #F91944;
+  background: white;
 }
 
 @keyframes App-logo-spin {
