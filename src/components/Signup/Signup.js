@@ -2,6 +2,7 @@ import React from 'react';
 import './Signup.css';
 import logo from '../../assets/images/logo2.png'
 import { Link } from 'react-router-dom';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Signup = () => {
     return (
@@ -14,9 +15,10 @@ const Signup = () => {
                 <input type="email" name="" id="" placeholder='Your email' />
                 <input type="password" name="" id="" placeholder='Your Password' />
                 <input type="password" name="" id="" placeholder='Confirm Password' />
-                <input type="button" value="SIGN UP" className='btn' />                
+                <input type="button" value="SIGNUP" className='btn' />                
             </form>
             <span>Already have account? <Link to='/login'>Login</Link></span>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };

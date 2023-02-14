@@ -1,3 +1,41 @@
+$primary-color: #F91944;
+$primary-deep: #d2032b;
+
 .social-login{
-    
+    .top-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2.5rem 0;
+
+        hr{
+            width: 10rem;
+            color: darkgray;
+        }
+        span{
+            color: black;
+            padding: 0 1rem;
+        }
+    }
+    .socials{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button{
+            font-size: 3rem;
+            background-color: transparent;
+            border: none;
+            padding: 0 2rem;      
+            cursor: pointer;      
+        }
+
+        .facebook{
+            color: #1672E6;
+        }
+        
+        .twitter{
+            color: #1DA1F2;
+        }
+    }
 }

@@ -1,13 +1,13 @@
 .signup-area {
-  height: 90vh;
+  height: 120vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background: url(../../assets/images/bg-banner-white.png);
   background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
 }
 .signup-area .logo-area {
   display: flex;

@@ -1,1 +1,32 @@
-/*# sourceMappingURL=SocialLogin.css.map */
+.social-login .top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem 0;
+}
+.social-login .top-section hr {
+  width: 10rem;
+  color: darkgray;
+}
+.social-login .top-section span {
+  color: black;
+  padding: 0 1rem;
+}
+.social-login .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-login .socials button {
+  font-size: 3rem;
+  background-color: transparent;
+  border: none;
+  padding: 0 2rem;
+  cursor: pointer;
+}
+.social-login .socials .facebook {
+  color: #1672E6;
+}
+.social-login .socials .twitter {
+  color: #1DA1F2;
+}/*# sourceMappingURL=SocialLogin.css.map */

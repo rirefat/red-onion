@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"SocialLogin.css"}
+{"version":3,"sourceRoot":"","sources":["SocialLogin.scss"],"names":[],"mappings":"AAII;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAEJ;EACI;EACA;;AAGR;EACI;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAGJ;EACI;;AAGJ;EACI","file":"SocialLogin.css"}
