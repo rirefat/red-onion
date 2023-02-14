@@ -4,7 +4,6 @@ $primary-deep: #d2032b;
 .track-order{
     display: grid;
     grid-template-columns: 5fr 2fr;
-    // gap: 5em;
     padding: 5% 15%;
 
     .google-map{
@@ -20,17 +19,40 @@ $primary-deep: #d2032b;
     .riders-info{
         background-color: #EFEEEC;
         border-radius: 12px;
-        padding: 15% 8%;
+        padding: 5% 8%;
 
         img{
             width: 35%;
             transform: translateX(8%);
+            transition: 1.5s;
+
+            &:hover{
+                transform: translateX(175%);
+            }
         }
 
         .location{
             background-color: #fff;
             border-radius: 12px;
             padding: 1.5rem;
+            display: flex;
+            align-items: center;
+
+            .side-bar{
+                color: $primary-color;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                flex-direction: column;
+                margin-right: 1rem;
+
+                .vertical-line{
+                    content: " ";
+                    background-color: $primary-color;
+                    width: 0.4px;
+                    height: 3.5rem;
+                }
+            }
 
             .your-location{
                 margin-bottom: 2rem;
@@ -51,15 +73,24 @@ $primary-deep: #d2032b;
         }    
         
         .time{
-            margin: 0.8rem 0;
+            margin: 1rem 0;
+            display: flex;
+            align-items: center;
+
+            .clock-icon{
+                color: $primary-color;
+                font-size: 2.5rem;
+                margin-right: 0.8rem;
+            }
             h3{
                 font-weight: 400;
                 font-size: 24px;
-                margin: 0;
+                margin: 0;                
             }
             p{
                 margin: 0;
                 color: rgb(68, 68, 68);
+                font-size: 12px;
             }
         }
 
@@ -74,6 +105,10 @@ $primary-deep: #d2032b;
             
             img{
                 width: 30%;
+
+                &:hover{
+                    transform: none;
+                }
             }
 
             h3{
@@ -85,6 +120,24 @@ $primary-deep: #d2032b;
                 margin: 0;
                 color: rgb(68, 68, 68);
                 font-size: 12px;
+            }
+        }
+
+        button{
+            width: 100%;
+            margin-top: 1.5rem;
+            padding: 0.8rem 0;
+            font-size: 16px;
+            color: white;
+            background-color: $primary-color;
+            border: none;
+            border-radius: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+            cursor: pointer;
+
+            &:hover{
+                background-color: $primary-deep;
             }
         }
     }

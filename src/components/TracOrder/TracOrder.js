@@ -4,6 +4,9 @@ import map from '../../assets/images/google-map.png';
 import rider from '../../assets/images/rider.png';
 import helmet from '../../assets/images/helmet.png';
 
+import { BiCurrentLocation } from 'react-icons/bi';
+import { AiOutlineFieldTime } from 'react-icons/ai';
+
 const TracOrder = () => {
     return (
         <div className='track-order'>
@@ -13,7 +16,11 @@ const TracOrder = () => {
             <div className="riders-info">
                 <img src={rider} alt="" />
                 <div className="location">
-                    <div className="side-bar"></div>
+                    <div className="side-bar">
+                        <BiCurrentLocation></BiCurrentLocation>
+                        <span className='vertical-line'></span>
+                        <BiCurrentLocation></BiCurrentLocation>
+                    </div>
                     <div>
                         <div className='your-location'>
                             <h3>Your location</h3>
@@ -27,8 +34,11 @@ const TracOrder = () => {
                 </div>
 
                 <div className="time">
-                    <h3>10:45</h3>
-                    <p>Estimated Delivery Time</p>
+                    <span className="clock-icon"><AiOutlineFieldTime></AiOutlineFieldTime></span>
+                    <div>
+                        <h3>10:45</h3>
+                        <p>Estimated Delivery Time</p>
+                    </div>
                 </div>
 
                 <div className="delivery-partner">
@@ -38,6 +48,7 @@ const TracOrder = () => {
                         <p>Red Onion Delivery Man</p>
                     </div>
                 </div>
+                <button>Contact</button>
             </div>
         </div>
     );

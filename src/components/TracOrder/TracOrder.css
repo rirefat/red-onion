@@ -14,16 +14,36 @@
 .track-order .riders-info {
   background-color: #EFEEEC;
   border-radius: 12px;
-  padding: 15% 8%;
+  padding: 5% 8%;
 }
 .track-order .riders-info img {
   width: 35%;
   transform: translateX(8%);
+  transition: 1.5s;
+}
+.track-order .riders-info img:hover {
+  transform: translateX(175%);
 }
 .track-order .riders-info .location {
   background-color: #fff;
   border-radius: 12px;
   padding: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.track-order .riders-info .location .side-bar {
+  color: #F91944;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+.track-order .riders-info .location .side-bar .vertical-line {
+  content: " ";
+  background-color: #F91944;
+  width: 0.4px;
+  height: 3.5rem;
 }
 .track-order .riders-info .location .your-location {
   margin-bottom: 2rem;
@@ -40,7 +60,14 @@
   color: rgb(68, 68, 68);
 }
 .track-order .riders-info .time {
-  margin: 0.8rem 0;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+.track-order .riders-info .time .clock-icon {
+  color: #F91944;
+  font-size: 2.5rem;
+  margin-right: 0.8rem;
 }
 .track-order .riders-info .time h3 {
   font-weight: 400;
@@ -50,6 +77,7 @@
 .track-order .riders-info .time p {
   margin: 0;
   color: rgb(68, 68, 68);
+  font-size: 12px;
 }
 .track-order .riders-info .delivery-partner {
   background-color: white;
@@ -63,6 +91,9 @@
 .track-order .riders-info .delivery-partner img {
   width: 30%;
 }
+.track-order .riders-info .delivery-partner img:hover {
+  transform: none;
+}
 .track-order .riders-info .delivery-partner h3 {
   font-weight: 400;
   font-size: 18px;
@@ -72,4 +103,20 @@
   margin: 0;
   color: rgb(68, 68, 68);
   font-size: 12px;
+}
+.track-order .riders-info button {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.8rem 0;
+  font-size: 16px;
+  color: white;
+  background-color: #F91944;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+.track-order .riders-info button:hover {
+  background-color: #d2032b;
 }/*# sourceMappingURL=TracOrder.css.map */
