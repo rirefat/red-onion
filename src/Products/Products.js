@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router';
 import Product from '../Product/Product';
 import './Products.css';
 
@@ -9,6 +10,11 @@ const Products = () => {
             .then(res=>res.json())
             .then(data=>setProducts(data))
     },[]);
+
+    const navigate = useNavigate();
+    const navigateToCart =()=>{
+        navigate('/cart');
+    }
 
     return (
         <div className='products-section'>
@@ -28,7 +34,7 @@ const Products = () => {
                 }
             </div>
             <div className="btn">
-                <button>Checkout Your Foods</button>
+                <button onClick={navigateToCart}>Checkout Your Foods</button>
             </div>
         </div>
     );

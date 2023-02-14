@@ -10,7 +10,6 @@ const Homepage = () => {
             <HeroSection></HeroSection>
             <Products></Products>
             <Feature></Feature>
-
         </div>
     );
 };

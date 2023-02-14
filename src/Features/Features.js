@@ -9,6 +9,7 @@ import icon2 from '../assets/images/icons/Group 1133.png';
 import icon3 from '../assets/images/icons/Group 245.png';
 
 import { BsArrowRightCircle } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 const Feature = () => {
     return (
@@ -26,7 +27,7 @@ const Feature = () => {
                             <p>Keep your system in sync with automated web hook based notifications each time link is paid and how we deram about our future.</p>
 
                             <div className="link">
-                                <a href="#">See more</a> <span><BsArrowRightCircle/></span>
+                                <Link to='/'>See More <span><BsArrowRightCircle/></span></Link>
                             </div>
                         </div>
                     </div>
@@ -40,7 +41,7 @@ const Feature = () => {
                             <p>Keep your system in sync with automated web hook based notifications each time link is paid and how we deram about our future.</p>
 
                             <div className="link">
-                                <a href="#">See more</a> <span><BsArrowRightCircle/></span>
+                                <Link to='/'>See More <span><BsArrowRightCircle/></span></Link>
                             </div>
                         </div>
                     </div>
@@ -54,7 +55,7 @@ const Feature = () => {
                             <p>Keep your system in sync with automated web hook based notifications each time link is paid and how we deram about our future.</p>
 
                             <div className="link">
-                                <a href="#">See more</a> <span><BsArrowRightCircle/></span>
+                                <Link to='/'>See More <span><BsArrowRightCircle/></span></Link>
                             </div>
                         </div>
                     </div>
