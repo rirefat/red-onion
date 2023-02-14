@@ -1,15 +1,17 @@
 import React from 'react';
 import './Footer.css';
 import logo from '../../assets/images/logo.png'
+import useFunction from '../../assets/Functions/Functions';
 
 const Footer = () => {
     const d = new Date();
     let year = d.getFullYear();
+    const {navigation}=useFunction();
     return (
         <div className='footer'>
             <div className="section-one">
                 <div className="logo-section">
-                    <img src={logo} alt="" />
+                    <img src={logo} onClick={()=>navigation("/")}/>
                 </div>
                 <div className="essential-links">
                     <ul>

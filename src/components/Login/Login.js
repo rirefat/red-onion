@@ -1,14 +1,16 @@
 import React from 'react';
 import './Login.css'
 import logo from '../../assets/images/logo2.png'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import useFunction from '../../assets/Functions/Functions';
 
 const Login = () => {
+    const {navigation}=useFunction();
     return (
         <div className='login-area'>
             <div className="logo-area">
-                <img src={logo} alt="" />
+                <img src={logo} onClick={()=>navigation("/")} />
             </div>
             <form action="" className='form-area'>
                 <input type="email" name="" id="" placeholder='Your email' />
