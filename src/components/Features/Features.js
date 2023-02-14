@@ -1,12 +1,12 @@
 import React from 'react';
 import './Features.css';
-import img1 from '../assets/images/feature1.png';
-import img2 from '../assets/images/feature2.png';
-import img3 from '../assets/images/feature3.png';
+import img1 from '../../assets/images/feature1.png';
+import img2 from '../../assets/images/feature2.png';
+import img3 from '../../assets/images/feature3.png';
 
-import icon1 from '../assets/images/icons/Group 204.png';
-import icon2 from '../assets/images/icons/Group 1133.png';
-import icon3 from '../assets/images/icons/Group 245.png';
+import icon1 from '../../assets/images/icons/Group 204.png';
+import icon2 from '../../assets/images/icons/Group 1133.png';
+import icon3 from '../../assets/images/icons/Group 245.png';
 
 import { BsArrowRightCircle } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
