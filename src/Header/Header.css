@@ -16,6 +16,7 @@
 }
 .header .logo-area img {
   width: 18%;
+  cursor: pointer;
 }
 .header .nav-links {
   display: flex;

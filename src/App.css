@@ -34,9 +34,7 @@
 
 .scroll-top{
   font-size: 32px;
-  border-radius: 50%;
   color: #F91944;
-  background: white;
 }
 
 @keyframes App-logo-spin {

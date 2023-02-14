@@ -1,22 +1,25 @@
 import React from 'react';
-import Feature from './Features/Features';
-import HeroSection from './HeroSection/HeroSection';
 import './App.css';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
-import Products from './Products/Products';
 import ScrollToTop from 'react-scroll-up';
 
 import { BsFillArrowUpCircleFill } from 'react-icons/bs';
+import Homepage from './assets/Homepage/Homepage';
+import { Routes } from 'react-router';
+import { Route } from 'react-router';
+import Login from './Login/Login';
 
 
 const App = () => {
   return (
     <div>
       <Header></Header>
-      <HeroSection></HeroSection>
-      <Products></Products>
-      <Feature></Feature>
+      <Routes>
+        <Route path='/' element={<Homepage></Homepage>}></Route>
+        <Route path='/home' element={<Homepage></Homepage>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
+      </Routes>
       <Footer></Footer>
 
       <ScrollToTop showUnder={300}>
