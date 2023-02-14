@@ -36,7 +36,7 @@ const TracOrder = () => {
                 <div className="time">
                     <span className="clock-icon"><AiOutlineFieldTime></AiOutlineFieldTime></span>
                     <div>
-                        <h3>10:45</h3>
+                        <h3>10:45 AM</h3>
                         <p>Estimated Delivery Time</p>
                     </div>
                 </div>
