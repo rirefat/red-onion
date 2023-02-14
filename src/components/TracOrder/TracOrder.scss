@@ -4,7 +4,7 @@ $primary-deep: #d2032b;
 .track-order{
     display: grid;
     grid-template-columns: 5fr 2fr;
-    padding: 5% 15%;
+    padding: 3% 15%;
 
     .google-map{
         display: flex;
@@ -12,7 +12,7 @@ $primary-deep: #d2032b;
         align-items: center;
 
         img{
-            width: 70%;
+            width: 95%;
         }
     }
 

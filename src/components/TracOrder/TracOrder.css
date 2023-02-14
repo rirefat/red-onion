@@ -1,7 +1,7 @@
 .track-order {
   display: grid;
   grid-template-columns: 5fr 2fr;
-  padding: 5% 15%;
+  padding: 3% 15%;
 }
 .track-order .google-map {
   display: flex;
@@ -9,7 +9,7 @@
   align-items: center;
 }
 .track-order .google-map img {
-  width: 70%;
+  width: 95%;
 }
 .track-order .riders-info {
   background-color: #EFEEEC;
