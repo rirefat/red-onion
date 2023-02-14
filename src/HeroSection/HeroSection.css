@@ -9,7 +9,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* width: 100vw; */
   height: 80vh;
 }
 .hero-section h1 {
@@ -30,6 +29,9 @@
   height: 3em;
   font-size: 18px;
   position: relative;
+}
+.hero-section .search-section #search_field:focus {
+  outline: none;
 }
 .hero-section .search-section #search_btn {
   cursor: pointer;
