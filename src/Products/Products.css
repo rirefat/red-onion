@@ -22,4 +22,23 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2em;
   padding: 0 8%;
+}
+.products-section .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+}
+.products-section .btn button {
+  background-color: rgb(235, 233, 233);
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 0.8em 1.5em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+}
+.products-section .btn button:hover {
+  background-color: #F91944;
+  color: white;
 }/*# sourceMappingURL=Products.css.map */

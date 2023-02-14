@@ -27,6 +27,9 @@ const Products = () => {
                     ></Product>)
                 }
             </div>
+            <div className="btn">
+                <button>Checkout Your Foods</button>
+            </div>
         </div>
     );
 };

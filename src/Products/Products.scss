@@ -30,4 +30,26 @@ $primary-deep: #d2032b;
         gap: 2em;
         padding: 0 8%;
     }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2em 0;
+
+        button{
+            background-color: rgb(235, 233, 233);
+            border: none;
+            border-radius: 8px;
+            font-size: 20px;
+            padding: 0.8em 1.5em;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: $primary-color;
+                color: white;
+            }
+        }
+    }
 }
