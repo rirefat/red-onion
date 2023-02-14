@@ -1,10 +1,20 @@
 .header {
-  padding: 1.5% 6%;
+  padding: 1.1% 6%;
   display: grid;
   grid-template-columns: 3fr 2fr;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  opacity: 0.9;
+}
+.header .logo-area {
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 .header .logo-area img {
-  width: 25%;
+  width: 18%;
 }
 .header .nav-links {
   display: flex;
