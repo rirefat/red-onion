@@ -12,6 +12,7 @@ import Signup from '../src/components/Signup/Signup';
 import Footer from '../src/components/Footer/Footer';
 import TracOrder from './components/TracOrder/TracOrder';
 import Cart from './components/Cart/Cart';
+import PageNotFound from './components/PageNotFound/PageNotFound';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         <Route path='/sign-up' element={<Signup></Signup>}></Route>
         <Route path='/cart' element={<Cart></Cart>}></Route>
         <Route path='/track-order' element={<TracOrder></TracOrder>}></Route>
+        <Route path='*' element={<PageNotFound></PageNotFound>}></Route>
       </Routes>
       <Footer></Footer>
 

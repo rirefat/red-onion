@@ -1,0 +1,31 @@
+.page-not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+.page-not-found img {
+  width: 25%;
+}
+.page-not-found h1 {
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  margin: 4rem 0;
+}
+.page-not-found button {
+  background-color: #F91944;
+  width: 25rem;
+  color: white;
+  letter-spacing: 0.3em;
+  border: none;
+  border-radius: 5px;
+  padding: 0.9rem 0;
+  cursor: pointer;
+  font-size: 1.1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.page-not-found button:hover {
+  background-color: #d2032b;
+}/*# sourceMappingURL=PageNotFound.css.map */
