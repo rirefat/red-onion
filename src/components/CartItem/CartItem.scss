@@ -12,6 +12,7 @@ $secondary-bg: #f0f0f0;
     margin-bottom: 1.8rem;
     width: 80%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    position: relative;
 
     .item-info{
         display: flex;
@@ -64,6 +65,24 @@ $secondary-bg: #f0f0f0;
 
         span{
             margin: 0 6px;
+        }
+    }
+
+    &:hover .remove-item{
+        visibility: visible;
+    }
+
+    .remove-item{
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        color: black;
+        cursor: pointer;
+        visibility: hidden;
+         
+        &:hover{
+            font-weight: 700;
+            color: $primary-color;
         }
     }
 }

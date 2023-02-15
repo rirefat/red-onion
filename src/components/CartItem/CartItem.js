@@ -1,6 +1,7 @@
 import React from 'react';
 import './CartItem.css';
 import { BiMinus,BiPlus } from 'react-icons/bi';
+import { ImCross } from 'react-icons/im';
 import img from '../../assets/images/breakfast/breakfast_id_2.png'
 
 const CartItem = () => {
@@ -20,6 +21,7 @@ const CartItem = () => {
                 <span className='quantity_number'>02</span>
                 <span className='icon'><BiPlus></BiPlus></span>
             </div>
+            <span className='remove-item'><ImCross></ImCross></span>
         </div>
     );
 };
