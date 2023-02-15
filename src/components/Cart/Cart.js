@@ -22,6 +22,7 @@ const Cart = () => {
                 <p>107 Rd no 8</p>
 
                 <CartItem></CartItem>
+                <CartItem></CartItem>
             </div>
         </div>
     );

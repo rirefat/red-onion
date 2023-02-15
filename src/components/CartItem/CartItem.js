@@ -1,6 +1,6 @@
 import React from 'react';
 import './CartItem.css';
-
+import { BiMinus,BiPlus } from 'react-icons/bi';
 import img from '../../assets/images/breakfast/breakfast_id_2.png'
 
 const CartItem = () => {
@@ -16,9 +16,9 @@ const CartItem = () => {
             </div>
 
             <div className="quantity">
-                <span>-</span>
-                <span>02</span>
-                <span>+</span>
+                <span className='icon'><BiMinus></BiMinus></span>
+                <span className='quantity_number'>02</span>
+                <span className='icon'><BiPlus></BiPlus></span>
             </div>
         </div>
     );
