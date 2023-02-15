@@ -10,7 +10,7 @@ $secondary-bg: #f0f0f0;
     .client-info {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        // justify-content: center;
         align-items: flex-start;
 
         h2 {
@@ -66,9 +66,37 @@ $secondary-bg: #f0f0f0;
     }
 
     .order-info {
+        .location-icon{
+            color: #F91944;
+            font-size: 1.3rem;
+        }
         .order-calculation {
             table {
                 width: 90%;
+            }
+        }
+
+        .term-and-conditions{
+            margin-top: 2rem;
+            
+            input{
+                margin-right: 0.5rem;
+                accent-color: $primary-color;
+            }
+
+            label{
+                color: #535c68;
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: 500;
+
+                    &:hover{
+                        text-decoration: underline;
+                        color: #2e86de;
+                    }
+                }
             }
         }
 

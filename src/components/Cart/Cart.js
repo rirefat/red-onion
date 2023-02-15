@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import CartItem from '../CartItem/CartItem';
 import './Cart.css';
+import { ImLocation } from 'react-icons/im';
 
 const Cart = () => {
     return (
@@ -17,7 +19,7 @@ const Cart = () => {
                 </form>
             </div>
             <div className="order-info">
-                <p>From <strong>Gulshan Plaza Restaurant - GPR</strong></p>
+                <p><span className='location-icon'><ImLocation></ImLocation></span> From <strong>Gulshan Plaza Restaurant - GPR</strong></p>
                 <p>Arriving in 20-30 mins</p>
                 <p>107 Rd no 8</p>
 
@@ -48,7 +50,10 @@ const Cart = () => {
                         </tr>
                     </table>
                 </div>
-
+                <div className="term-and-conditions">
+                    <input type="checkbox" name="terms" id="terms" />
+                    <label for="terms">Agreed the <Link to="/term-and-conditions">Terms & Conditions</Link></label>
+                </div>
                 <button>Place Order</button>
             </div>
         </div>

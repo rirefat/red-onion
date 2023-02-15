@@ -6,7 +6,6 @@
 .cart .client-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
 }
 .cart .client-info h2 {
@@ -53,8 +52,31 @@
 .cart .client-info form button:hover {
   background-color: #d2032b;
 }
+.cart .order-info .location-icon {
+  color: #F91944;
+  font-size: 1.3rem;
+}
 .cart .order-info .order-calculation table {
   width: 90%;
+}
+.cart .order-info .term-and-conditions {
+  margin-top: 2rem;
+}
+.cart .order-info .term-and-conditions input {
+  margin-right: 0.5rem;
+  accent-color: #F91944;
+}
+.cart .order-info .term-and-conditions label {
+  color: #535c68;
+}
+.cart .order-info .term-and-conditions label a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.cart .order-info .term-and-conditions label a:hover {
+  text-decoration: underline;
+  color: #2e86de;
 }
 .cart .order-info button {
   background-color: rgb(235, 233, 233);
