@@ -8,10 +8,10 @@ const Cart = () => {
             <div className="client-info">
                 <h2>Edit Delivery Address</h2>
                 <form action="">
-                    <input type="text" name="client_name" id="client_name" placeholder='Name'/>
-                    <input type="tel" name="phone_number" id="phone_number" placeholder='Phone Number'/>
-                    <input type="text" name="address" id="address" placeholder='Delivery Address'/>
-                    <input type="text" name="delivery_notes" id="delivery_notes" placeholder='Add Delivery Notes'/>
+                    <input type="text" name="client_name" id="client_name" placeholder='Name' />
+                    <input type="tel" name="phone_number" id="phone_number" placeholder='Phone Number' />
+                    <input type="text" name="address" id="address" placeholder='Delivery Address' />
+                    <input type="text" name="delivery_notes" id="delivery_notes" placeholder='Add Delivery Notes' />
 
                     <button>Save & Continue</button>
                 </form>
@@ -23,6 +23,33 @@ const Cart = () => {
 
                 <CartItem></CartItem>
                 <CartItem></CartItem>
+
+                <div className="order-calculation">
+                    <table>
+                        <tr>
+                            <td>Subtotal: 2 items</td>
+                            <td>$ 25.00</td>
+                        </tr>
+                        <tr>
+                            <td>Tax:</td>
+                            <td>$5.5</td>
+                        </tr>
+                        <tr>
+                            <td>Delivery Fee:</td>
+                            <td>$0.5</td>
+                        </tr>
+                        <tr>
+                            <td>Discount:</td>
+                            <td>$5.5</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Total:</strong></td>
+                            <td><strong>$25.5</strong></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <button>Place Order</button>
             </div>
         </div>
     );

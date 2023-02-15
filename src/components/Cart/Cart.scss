@@ -12,7 +12,8 @@ $secondary-bg: #f0f0f0;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        h2{
+
+        h2 {
             text-align: left;
             font-weight: 400;
             font-size: 28px;
@@ -20,6 +21,7 @@ $secondary-bg: #f0f0f0;
             padding-bottom: 1rem;
             width: 69%;
         }
+
         form {
             display: flex;
             justify-content: center;
@@ -40,7 +42,7 @@ $secondary-bg: #f0f0f0;
                 }
             }
 
-            #delivery_notes{
+            #delivery_notes {
                 min-height: 8rem;
                 padding: 0 2.5rem !important;
             }
@@ -56,12 +58,32 @@ $secondary-bg: #f0f0f0;
                 cursor: pointer;
                 font-size: 1.1rem;
 
-                &:hover{
+                &:hover {
                     background-color: $primary-deep;
                 }
             }
         }
     }
 
-    .order-info {}
+    .order-info {
+        .order-calculation {
+            table {
+                width: 90%;
+            }
+        }
+
+        button {
+            background-color: rgb(235, 233, 233);
+            width: 50%;
+            color: black;
+            letter-spacing: 0.15em;
+            border: none;
+            border-radius: 5px;
+            padding: 0.9rem 0;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin: 2rem 0;
+            cursor:not-allowed;
+        }
+    }
 }

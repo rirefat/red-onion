@@ -11,7 +11,7 @@ const CartItem = () => {
                 <img src={img} alt="" />
                 <div>
                     <p>Butter Naan</p>
-                    <p className="price">$2.5</p>
+                    <p className="price">$12.5</p>
                     <span className='note'>Delivery Free</span>
                 </div>
             </div>

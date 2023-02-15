@@ -52,4 +52,20 @@
 }
 .cart .client-info form button:hover {
   background-color: #d2032b;
+}
+.cart .order-info .order-calculation table {
+  width: 90%;
+}
+.cart .order-info button {
+  background-color: rgb(235, 233, 233);
+  width: 50%;
+  color: black;
+  letter-spacing: 0.15em;
+  border: none;
+  border-radius: 5px;
+  padding: 0.9rem 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 2rem 0;
+  cursor: not-allowed;
 }/*# sourceMappingURL=Cart.css.map */
