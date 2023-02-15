@@ -1,6 +1,6 @@
 import React from 'react';
 import './TracOrder.css';
-import map from '../../assets/images/google-map.png';
+import map from '../../assets/images/google-map.jpg';
 import rider from '../../assets/images/rider.png';
 import helmet from '../../assets/images/helmet.png';
 

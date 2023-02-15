@@ -8,7 +8,7 @@ const PageNotFound = () => {
     return (
         <div className='page-not-found'>
             <img src={img} alt="" />
-            <h1>The page you're looking for is not available</h1>
+            <h1>The page you're looking for is not available.</h1>
             <button onClick={()=>{navigation("/")}}>Return Homepage</button>
         </div>
     );

@@ -13,9 +13,9 @@ const Login = () => {
                 <img src={logo} onClick={()=>navigation("/")} />
             </div>
             <form action="" className='form-area'>
-                <input type="email" name="" id="" placeholder='Your email' />
-                <input type="password" name="" id="" placeholder='Your Password' />
-                <input type="button" value="LOGIN" className='btn' />                
+                <input required type="email" name="" id="" placeholder='Your email' />
+                <input required type="password" name="" id="" placeholder='Your Password' />    
+                <input type="submit" value="LOGIN" className='btn'/>          
             </form>
             <span>New Here? <Link to='/sign-up'>Register Now</Link></span>
             <SocialLogin></SocialLogin>

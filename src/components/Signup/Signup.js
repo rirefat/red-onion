@@ -13,13 +13,13 @@ const Signup = () => {
                 <img src={logo} onClick={()=>navigation("/")}/>
             </div>
             <form action="" className='form-area'>
-                <input type="text" name="" id="" placeholder='Your Name' />
-                <input type="email" name="" id="" placeholder='Your email' />
-                <input type="password" name="" id="" placeholder='Your Password' />
-                <input type="password" name="" id="" placeholder='Confirm Password' />
-                <input type="button" value="SIGNUP" className='btn' />                
+                <input required type="text" name="" id="" placeholder='Your Name' />
+                <input required type="email" name="" id="" placeholder='Your email' />
+                <input required type="password" name="" id="" placeholder='Your Password' />
+                <input required type="password" name="" id="" placeholder='Confirm Password' />
+                <input type="submit" value="SIGNUP" className='btn' />                
             </form>
-            <span>Already have account? <Link to='/login'>Login</Link></span>
+            <span>Already have an account? <Link to='/login'>Please Login</Link></span>
             <SocialLogin></SocialLogin>
         </div>
     );
