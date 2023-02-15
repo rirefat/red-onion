@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import CartItem from '../CartItem/CartItem';
 import './Cart.css';
 import { ImLocation } from 'react-icons/im';
+import payments from '../../assets/images/payment-methods.png';
 
 const Cart = () => {
     return (
@@ -17,6 +18,11 @@ const Cart = () => {
 
                     <button>Save & Continue</button>
                 </form>
+
+                <div className="payment-methods">
+                    <h2>Accepted Payment Methods are:</h2>
+                    <img src={payments} alt="" />
+                </div>
             </div>
             <div className="order-info">
                 <p><span className='location-icon'><ImLocation></ImLocation></span> From <strong>Gulshan Plaza Restaurant - GPR</strong></p>

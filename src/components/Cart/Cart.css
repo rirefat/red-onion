@@ -52,6 +52,18 @@
 .cart .client-info form button:hover {
   background-color: #d2032b;
 }
+.cart .client-info .payment-methods {
+  margin-top: 3rem;
+}
+.cart .client-info .payment-methods h2 {
+  font-weight: 400;
+  font-size: 22px;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.cart .client-info .payment-methods img {
+  width: 45%;
+}
 .cart .order-info .location-icon {
   color: #F91944;
   font-size: 1.3rem;

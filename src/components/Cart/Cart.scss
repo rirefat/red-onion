@@ -63,36 +63,53 @@ $secondary-bg: #f0f0f0;
                 }
             }
         }
+
+        .payment-methods {
+            margin-top: 3rem;
+            h2 {
+                // text-align: left;
+                font-weight: 400;
+                font-size: 22px;
+                border-bottom: none;
+                padding-bottom: 0;
+                // width: 69%;
+            }
+
+            img {
+                width: 45%;
+            }
+        }
     }
 
     .order-info {
-        .location-icon{
+        .location-icon {
             color: #F91944;
             font-size: 1.3rem;
         }
+
         .order-calculation {
             table {
                 width: 90%;
             }
         }
 
-        .term-and-conditions{
+        .term-and-conditions {
             margin-top: 2rem;
-            
-            input{
+
+            input {
                 margin-right: 0.5rem;
                 accent-color: $primary-color;
             }
 
-            label{
+            label {
                 color: #535c68;
 
-                a{
+                a {
                     text-decoration: none;
                     color: black;
                     font-weight: 500;
 
-                    &:hover{
+                    &:hover {
                         text-decoration: underline;
                         color: #2e86de;
                     }
@@ -111,7 +128,7 @@ $secondary-bg: #f0f0f0;
             font-size: 0.9rem;
             font-weight: 500;
             margin: 2rem 0;
-            cursor:not-allowed;
+            cursor: not-allowed;
         }
     }
 }
