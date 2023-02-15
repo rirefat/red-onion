@@ -11,6 +11,7 @@ import Login from '../src/components/Login/Login';
 import Signup from '../src/components/Signup/Signup';
 import Footer from '../src/components/Footer/Footer';
 import TracOrder from './components/TracOrder/TracOrder';
+import Cart from './components/Cart/Cart';
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/home' element={<Homepage></Homepage>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/sign-up' element={<Signup></Signup>}></Route>
+        <Route path='/cart' element={<Cart></Cart>}></Route>
         <Route path='/track-order' element={<TracOrder></TracOrder>}></Route>
       </Routes>
       <Footer></Footer>

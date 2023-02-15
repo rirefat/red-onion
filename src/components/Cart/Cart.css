@@ -1,0 +1,55 @@
+.cart {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 5% 10%;
+}
+.cart .client-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cart .client-info h2 {
+  text-align: left;
+  font-weight: 400;
+  font-size: 28px;
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+  width: 69%;
+}
+.cart .client-info form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cart .client-info form input {
+  width: 30rem;
+  margin-bottom: 1rem;
+  padding: 0.9rem 2.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+.cart .client-info form input:focus {
+  outline: none;
+}
+.cart .client-info form #delivery_notes {
+  min-height: 5rem;
+  padding: 0 2.5rem !important;
+}
+.cart .client-info form button {
+  background-color: #F91944;
+  width: 35rem;
+  color: white;
+  letter-spacing: 0.3em;
+  border: none;
+  border-radius: 5px;
+  padding: 0.9rem 0;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.cart .client-info form button:hover {
+  background-color: #d2032b;
+}/*# sourceMappingURL=Cart.css.map */
