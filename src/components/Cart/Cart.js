@@ -1,4 +1,5 @@
 import React from 'react';
+import CartItem from '../CartItem/CartItem';
 import './Cart.css';
 
 const Cart = () => {
@@ -16,7 +17,11 @@ const Cart = () => {
                 </form>
             </div>
             <div className="order-info">
-                <h2>Order Info</h2>
+                <p>From <strong>Gulshan Plaza Restaurant - GPR</strong></p>
+                <p>Arriving in 20-30 mins</p>
+                <p>107 Rd no 8</p>
+
+                <CartItem></CartItem>
             </div>
         </div>
     );

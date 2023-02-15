@@ -1,5 +1,6 @@
 $primary-color: #F91944;
 $primary-deep: #d2032b;
+$secondary-bg: #f0f0f0;
 
 .cart {
     display: grid;
@@ -32,7 +33,7 @@ $primary-deep: #d2032b;
                 font-size: 1.2rem;
                 border: none;
                 border-radius: 5px;
-                background-color: #f0f0f0;
+                background-color: $secondary-bg;
 
                 &:focus {
                     outline: none;
@@ -40,7 +41,7 @@ $primary-deep: #d2032b;
             }
 
             #delivery_notes{
-                min-height: 5rem;
+                min-height: 8rem;
                 padding: 0 2.5rem !important;
             }
 

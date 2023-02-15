@@ -36,7 +36,7 @@
   outline: none;
 }
 .cart .client-info form #delivery_notes {
-  min-height: 5rem;
+  min-height: 8rem;
   padding: 0 2.5rem !important;
 }
 .cart .client-info form button {
