@@ -4,7 +4,7 @@ $primary-deep: #d2032b;
 .header {
     padding: 1.1% 6%;
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 1fr 1fr;
     position: sticky;
     top: 0;
     background-color: white;
@@ -17,7 +17,7 @@ $primary-deep: #d2032b;
         justify-content: start;
         align-items: center;
         img {
-            width: 18%;
+            width: 20%;
             cursor: pointer;
         }
     }

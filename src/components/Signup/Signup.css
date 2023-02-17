@@ -41,6 +41,10 @@
   width: 30rem;
   color: white;
   letter-spacing: 0.3em;
+  cursor: pointer;
+}
+.signup-area .form-area .btn:hover {
+  background-color: #d2032b;
 }
 .signup-area span {
   color: #F91944;

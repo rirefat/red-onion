@@ -11,7 +11,7 @@ const SocialLogin = () => {
 
     const auth = getAuth(app);
 
-    const googleSignIN = () => {
+    const googleSignIn = () => {
         const googleProvider = new GoogleAuthProvider();
         signInWithPopup(auth, googleProvider)
             .then((result) => {
@@ -19,6 +19,7 @@ const SocialLogin = () => {
                 const token = credential.accessToken;
                 const user = result.user;
                 setUser(user);
+                console.log(user)
             })
             .catch((error) => {
                 const errorCode = error.code;
@@ -36,7 +37,7 @@ const SocialLogin = () => {
                 <hr />
             </div>
             <div className="socials">
-                <button className='google' onClick={googleSignIN}><FcGoogle></FcGoogle></button>
+                <button className='google' onClick={googleSignIn}><FcGoogle></FcGoogle></button>
                 <button className='facebook'><FaFacebookSquare></FaFacebookSquare></button>
                 <button className='twitter'><BsTwitter></BsTwitter></button>
             </div>

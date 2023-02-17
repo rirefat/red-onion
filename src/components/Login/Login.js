@@ -7,14 +7,23 @@ import useFunction from '../../assets/Functions/Functions';
 
 const Login = () => {
     const {navigation}=useFunction();
+
+    const emailLogin =(event)=>{
+        event.preventDefault();
+        const email=event.target.email.value;
+        const password=event.target.password.value;
+
+        console.log(email, password,);
+    }
+
     return (
         <div className='login-area'>
             <div className="logo-area">
                 <img src={logo} onClick={()=>navigation("/")} />
             </div>
-            <form action="" className='form-area'>
-                <input required type="email" name="" id="" placeholder='Your email' />
-                <input required type="password" name="" id="" placeholder='Your Password' />    
+            <form onClick={emailLogin} className='form-area'>
+                <input required type="email" name="email" id="email" placeholder='Your email' />
+                <input required type="password" name="password" id="password" placeholder='Your Password' />    
                 <input type="submit" value="LOGIN" className='btn'/>          
             </form>
             <span>New Here? <Link to='/sign-up'>Register Now</Link></span>

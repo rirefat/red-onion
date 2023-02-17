@@ -19,6 +19,7 @@ const Header = () => {
                 <Link to='/track-order'>Track Order</Link>
                 <Link to='/login'>Login</Link>
                 <Link to='/sign-up'>Sign Up</Link>
+                {/* <Link to='/sign-up'>Sign Out</Link> */}
             </div>
         </div>
     );

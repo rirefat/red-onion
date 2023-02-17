@@ -1,7 +1,7 @@
 .header {
   padding: 1.1% 6%;
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 1fr 1fr;
   position: sticky;
   top: 0;
   background-color: white;
@@ -15,7 +15,7 @@
   align-items: center;
 }
 .header .logo-area img {
-  width: 18%;
+  width: 20%;
   cursor: pointer;
 }
 .header .nav-links {
