@@ -9,21 +9,18 @@ import useFunction from '../../assets/Functions/Functions';
 import { createUserWithEmailAndPassword, getAuth } from "firebase/auth";
 import app from '../../firebase.init';
 
+const auth = getAuth(app);
+
 const Signup = () => {
     const { navigation } = useFunction();
     const [user, setUser] = useState({});
-    const [name, setname] = useState('');
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
 
     const emailSignIn = (event) => {
         event.preventDefault();
-        const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
-        const confirm_password = event.target.confirm_password.value;
+        console.log(email, password);
 
-        const auth = getAuth(app);
         createUserWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
                 const user = userCredential.user;
